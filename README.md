@@ -1,3 +1,7 @@
+## Object counter
+This is an instant trigger plugin that calculates how many objects are selected on the current page.
+
+## Develop
 Below are the steps to get your plugin running. You can also find instructions at:
 
   https://www.figma.com/plugin-docs/plugin-quickstart-guide/

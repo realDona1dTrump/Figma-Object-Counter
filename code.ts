@@ -1,10 +1,10 @@
-var num = figma.currentPage.selection.length
+const num = figma.currentPage.selection.length
 
 if (num > 0) {
 
-    var suf = (num >= 2) ? ' objects.' : ' object.';
+    const suf = (num >= 2) ? ' objects.' : ' object.';
 
-    var sum = num.toString()
+    const sum = num.toString()
 
     figma.notify('You have selected ' + sum + suf, { timeout: 2500 })   //Unit:ms
 
