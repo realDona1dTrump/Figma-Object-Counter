@@ -6,14 +6,14 @@ if (num > 0) {
 
     const sum = num.toString()
 
-    figma.notify('You have selected ' + sum + suf, { timeout: 2500 })   //Unit:ms
+    figma.notify('You have selected ' + sum + suf, { timeout: 3000 })   //Unit:ms
 
     figma.closePlugin()
 } 
 
 else {
 
-    figma.notify("You haven't selected any objects!", { timeout: 2500 })
+    figma.notify("You haven't selected any objects!", { timeout: 3000 })
 
     figma.closePlugin()
 
