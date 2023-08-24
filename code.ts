@@ -13,7 +13,7 @@ if (num > 0) {
 
 else {
 
-    figma.notify("You haven't selected any objects!", { timeout: 3000 })
+    figma.notify("You have not selected any objects!", { timeout: 3000 })
 
     figma.closePlugin()
 
